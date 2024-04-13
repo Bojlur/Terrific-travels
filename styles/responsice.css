@@ -62,4 +62,19 @@
         gap: 10px;
         margin-left: 10px;
     }
+    .newsletter{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter-text{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .newsletter-img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .footer{
+        margin-left: 20px;
+      }
 }
