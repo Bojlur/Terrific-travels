@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* shared style  */
+.btn-primary{
+    padding: 15px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:rgba(210, 35, 35, 0.607);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.container{
+    margin-top: 50px;
+}
+/* nav section style */
+nav{
+    padding: 10px 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #fff;
+    height: 70px;
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.primary-text{
+    color: red;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(90, 89, 89);
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    font-size: 30px;
+}
+.active{
+    color: red;
+    font-weight: 600;
+}
+
+/* banner section style */
+
+.banner{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+.banner-content{
+    /* max-width: 600px;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.description{
+    color: #fff;
+    margin-bottom: 30px;
+}
+input[type=text], select {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .input form{
+    border-radius: 5px;
+    background-color: rgb(144, 160, 182);
+    padding: 10px;
+  }
+
+  /* blogs section css */
+  .blogs{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+  }
+  .blog-content{
+    width: 50%;
+  }
+  .blog-img{
+    width: 50%;
+  }
+  .blog-img img{
+    height: 90%;
+  }
+  .blog-description{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .blog-list{
+    margin-bottom: 30px;
+    padding-left: 30px;
+  }
+  /* gallary section start */
+  .section-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .section-description{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+.gallary-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.gallary-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.single-gallery-img{
+    position: relative;
+}
+
+.image-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    color: #fff;
+}
+
+/* facts section css */
+.facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+}
+.facts-card-container .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}

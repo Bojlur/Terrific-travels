@@ -1,0 +1,65 @@
+
+
+@media screen and (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #fff;
+        gap: 0;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .heading{
+        font-size: 45px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .description{
+        color: #fff;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .input form{
+        background-color:transparent;
+      }
+      .blogs{
+        flex-direction: column;
+        margin-left: 5;
+      }
+      .blog-content{
+        width: 100%;
+      }
+      .blog-img{
+        width: 100%;
+      }
+      .gallary-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10px;
+    }
+}
